@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #272022;
+    font-weight: 900;
+    text-transform: capitalize;
+    &:visited{
+        color: orange;
+    }
+    &:hover{
+        text-decoration: underline;
+        color: gold;
+        cursor: pointer;
+    }
+}
+header{
+    display: flex;
+    flex-direction: 1fr 1fr;
+    justify-content: space-between;
+    align-items: end;
+background-color: hsla(25, 97%, 23%, 0.74);
+}

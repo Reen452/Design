@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.learn{
+    font-family: "poppins" sans-serif;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 30rem;
+    margin-top: 1rem;
+    background-color:rgb(54,65,69,0.04)
+    
+}
+.learn img{
+    padding: 1rem;
+}
+.learn h1{
+    font-size: 2.5rem;
+}
+.learn p{
+    font-size: 2rem;
+    color: grey;
+}
+.learn span{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+.learn a{
+    color: orangered;
+    font-size: 1.5rem;
+    font-weight: 350;
+    text-decoration: none;
+    text-transform: capitalize;
+}

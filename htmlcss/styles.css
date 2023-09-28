@@ -1,0 +1,9 @@
+/* This way is the most recommended way of writting css styling. so from Now we will be using this. */
+/* We import this file into html file. Then you have to attribute every html element with either a class or an id{ class represented by . and id by# } */
+/* We can try to test if our css and html are connected by using the body tag. */
+body{
+    background-color: purple;
+}
+.namesdiv{
+    color: white;
+}

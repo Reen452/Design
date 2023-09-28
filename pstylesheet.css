@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.pattern{
+    background-image: url(patterns.png);
+    border: 1px dotted grey;
+    text-align: center;
+    padding: 2rem;
+    font-family: "poppins", sans-serif;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    font-size: 30px;
+    color: grey;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 1rem;
+    text-transform: capitalize;
+    background-image: url(green-checkmark.svg);
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    background-position: left center;
+    color: rgb(54,65,69,0.6);
+}
+button{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    background-image: linear-gradient(90deg,#846ffa,#f23b60);
+}
+button:hover{
+    background-image: linear-gradient(to right, #846ffa,#846ffa);
+}

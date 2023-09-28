@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        
+       
+    }
+    .wrapper {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .widget {
+        width: 100%;
+        min-width: 250px;
+        max-width: 300px;
+        padding: 2rem;
+        border: 1px solid #dcdee2;
+        border-radius: 4px;
+        margin: 4px;
+        font: 18px/1.55 "poppins", sans-serif;
+        
+        
+    }
+    .widget p img{
+        width: 1.25rem;
+        padding: 0.2rem;
+        
+    }
+    .widget img {
+        width: 5rem;
+        
+    }
+    .widget button img {
+        width: 1rem;
+        
+       
+    }
+    .widget button {
+              padding: 5px;
+            border-radius:4px;
+             font:18px/1.55 "poppins";
+             
+             
+}
+.learn {
+    border: 1px dashed grey;
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: poppins, 'Times New Roman', Times, serif;
+    padding-left: 12rem;
+
+}
+span{
+    color: grey;
+    font-size: 1rem;
+}
+</style>
+<body>
+    <section class="learn">
+
+    <h1>Dashboard</h1>
+    <div class="wrapper">
+
+<div class="widget">
+    <img src="icon-money.svg" alt="icon-money">
+    <div>
+        <h2>$4502</h2>
+        <p>Earned this month</p>
+        <p><img src="icon-arrow-green.svg" alt="arrow-green">+6.05%<span>than last month</span></p>
+        <button>
+            Earnings
+            <img src="icon-arrow-right.svg" alt="arrow-right">
+        </button>
+    </div>
+</div>
+<div class="widget">
+    <img src="icon-sales.svg" alt="icon-sales">
+    <div>
+        <h2>22</h2>
+        <p>New Sales</p>
+        <p><img src="icon-arrow-green.svg" alt="arrow-green">+16.64% <span>than last month</span></p>
+        <button> 
+            Sales
+             <img src="icon-arrow-right.svg" alt="arrow-right">
+            </button>
+    </div>
+</div>
+<div class="widget">
+    <img src="icon-chat.svg" alt="icon-chat">
+    <div>
+        <h2>7</h2>
+        <p>New Comments</p>
+        <p><img src="icon-arrow-red.svg" alt="arrow-red">-19% <span>than last month</span></p>
+    <button>
+            Comments 
+            <img src="icon-arrow-right.svg" alt="arrow-right">
+        </button>
+        
+    </div>
+</div>
+</div>
+
+</section>
+    
+</body>
+</html>
