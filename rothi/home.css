@@ -37,7 +37,7 @@ background-color: darkgoldenrod;
    font-family: 'Nunito', sans-serif;
    animation-name: shoes;
   padding-left: 15px;
-   
+ 
 }
 
 .home-div a{
@@ -67,6 +67,6 @@ span{
 }
 p{
    font-weight: 400;
-   font-size: 14px;
+   font-size: 20pxpx;
    color: #123456;
 }
