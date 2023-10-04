@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
@@ -31,4 +34,8 @@ footer{
 }
 em{
 color: white;
+}
+.info{
+    padding: 0;
+
 }
