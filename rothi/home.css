@@ -29,27 +29,26 @@ transition-property: background-color;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   gap: 2rem;
+   gap: 1rem;
    background-color: #f0f8ff;
-   padding-left: 1rem;
-   padding-top: 2rem;
-   margin-top: 1rem;
-   
-
-}
-.home-div a{
- text-decoration: none;
+   text-decoration: none;
    color: #29465B;
    font-size: 14px;
    font-family: 'Nunito', sans-serif;
    animation-name: shoes;
-   animation-duration:4s ;
+  padding-left: 15px;
+
+   
+   
+}
+.home-div a{
    &:hover{
       background-color:papayawhip;
       cursor: pointer;
-      transform: scale(1.2);
+     transform: scale(1.2);
 }
 }
+
 @keyframes shoes {
    0%
    {
@@ -68,6 +67,8 @@ transition-property: background-color;
 }
 .home-div h3{
 font-size: 18px;
+display: flex;
+flex-wrap: wrap;
 }
 span{
    font-size: 18px;
