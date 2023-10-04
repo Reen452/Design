@@ -16,13 +16,13 @@ body{
       padding: 10px;
       margin: 10px;
       text-align: center; 
-      text-transform: uppercase;
+      text-transform:uppercase;
       font-size:40px;
       font-weight: 900;
       color: brown;
       &:hover{
 background-color: darkgoldenrod;
-transition-property: background-color;
+
       }
 }
 .home-div{
@@ -33,34 +33,24 @@ transition-property: background-color;
    background-color: #f0f8ff;
    text-decoration: none;
    color: #29465B;
-   font-size: 14px;
+   font-size: 24px;
    font-family: 'Nunito', sans-serif;
    animation-name: shoes;
   padding-left: 15px;
-
-   
    
 }
+
 .home-div a{
+   text-decoration: underline;
+   color: black;
    &:hover{
-      background-color:papayawhip;
+      opacity: 0.8;
+      color: blue;
       cursor: pointer;
      transform: scale(1.2);
 }
 }
 
-@keyframes shoes {
-   0%
-   {
-      transform: scale(0);
-   }
-   80%{
-      transform: scale(1.2);
-   }
-   100%{
-      transform: scale(1);
-   }
-}
 .home-div img{
    background-color: antiquewhite;
   
@@ -69,6 +59,7 @@ transition-property: background-color;
 font-size: 18px;
 display: flex;
 flex-wrap: wrap;
+
 }
 span{
    font-size: 18px;
